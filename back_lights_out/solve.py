@@ -4,11 +4,11 @@ from typing import List, Tuple
 Matrix = List[List[int]]
 Coords = List[Tuple[int, int]]
 
-    """
-    FUncion principal que resuelve lo que pide ña pregunta 6 del practico.
-    Recibe un tablero n x n de 0/1 y devuelve un vector de 0/1
-    que indica qué casillas hay que presionar para resolver el juego.
-    """
+"""
+FUncion principal que resuelve lo que pide ña pregunta 6 del practico.
+Recibe un tablero n x n de 0/1 y devuelve un vector de 0/1
+que indica qué casillas hay que presionar para resolver el juego.
+"""
 def solve_lights_out_vector(board: Matrix) -> List[int]:
 
     n = len(board)
